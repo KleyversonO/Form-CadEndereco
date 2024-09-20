@@ -1,4 +1,4 @@
-# Form-CadEndereco
+# Cadastro de CEP
 O projeto tem a função de treinar javaScript, fazendo um site que fará com que você digite o CEP e ele complete sozinho as informações do CEP digitado.
 
 ## Const LimparFormulario
