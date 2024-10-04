@@ -3,7 +3,7 @@ O projeto tem a função de treinar javaScript, fazendo um site que fará com qu
 
 # Função
 O projeto possui uma interface simples, porém funcional e intuitiva. No projeto é possível ver uma caixa de texto escrito "CEP" aonde você pode digitar um CEP que deseja para que ele possa verificar e lhe dar informações sobre esse lugar.
-[gif](img/grav.gif)
+[gif](img/https://raw.githubusercontent.com/KleyversonO/Form-CadEndereco/refs/heads/main/img/grav.gif)
 
 ## Const LimparFormulario
 [foto](img/limparF.png)
