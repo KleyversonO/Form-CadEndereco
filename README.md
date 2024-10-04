@@ -34,6 +34,14 @@ Tem a função de preencher campos relacionados ao CEP
 
 * addEventListener: Ele irá registrar uma única espera de evento em um único alvo. Nesse caso fazendo com que assim que o usuário do site saia da caixa de adicionar CEP, o processo aonde ele valida o próprio e caso seja correto mostre as informações, e caso de errado, irá informar que o CEP é inválido.
 
+## Fontes
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty
+https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Asynchronous/Introducing
+https://developer.mozilla.org/pt-BR/docs/Web/API/EventTarget/addEventListener
+
+
+
+
 ## Tecnologias utilizadas 
 
 * ``HTML 5``
