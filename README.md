@@ -1,5 +1,9 @@
 # Cadastro de CEP
-O projeto tem a função de treinar javaScript, fazendo um site que fará com que você digite o CEP e ele complete sozinho as informações do CEP digitado.
+O projeto tem a função de treinar javaScript, fazendo um site que fará com que você digite o CEP e ele complete sozinho as informações do CEP digitado. Foi feito durante as aulas de Programação Web 1 sobre a supervisão do professor Leonardo Santiago Sidon da Rocha 
+
+# Função
+O projeto possui uma interface simples, porém funcional e intuitiva. No projeto é possível ver uma caixa de texto escrito "CEP" aonde você pode digitar um CEP que deseja para que ele possa verificar e lhe dar informações sobre esse lugar.
+[gif](img/grav.gif)
 
 ## Const LimparFormulario
 [foto](img/limparF.png)
@@ -30,14 +34,14 @@ Tem a função de preencher campos relacionados ao CEP
 
 * addEventListener: Ele irá registrar uma única espera de evento em um único alvo. Nesse caso fazendo com que assim que o usuário do site saia da caixa de adicionar CEP, o processo aonde ele valida o próprio e caso seja correto mostre as informações, e caso de errado, irá informar que o CEP é inválido.
 
- 
+## Tecnologias utilizadas 
 
- 
-
- 
-
- 
-
- 
-
- 
+* ``HTML 5``
+* ``CSS 3``
+* ``Java Script``
+* ``Github``
+* ``VsCode``
+* ``Microsoft Teams``
+* ``Google``
+## Autor
+Kleyverson de Oliveira Sampaio
