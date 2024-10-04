@@ -3,27 +3,27 @@ O projeto tem a função de treinar javaScript, fazendo um site que fará com qu
 
 # Função
 O projeto possui uma interface simples, porém funcional e intuitiva. No projeto é possível ver uma caixa de texto escrito "CEP" aonde você pode digitar um CEP que deseja para que ele possa verificar e lhe dar informações sobre esse lugar.
-[gif](img/https://raw.githubusercontent.com/KleyversonO/Form-CadEndereco/refs/heads/main/img/grav.gif)
+![gif](img/grav.gif)
 
 ## Const LimparFormulario
-[foto](img/limparF.png)
+![foto](img/limparF.png)
 É utilizado uma "const" que tem a função de apagar os elementos já utilizados.
 
 ## Const Enumero
-[foto](img/apNumeros.png)
+![foto](img/apNumeros.png)
 É utilizada a "const" que tem função de validar se foram utilizados apenas números.
 
 ## Const cepValido
-[foto](img/quantDigitos.png)
+![foto](img/quantDigitos.png)
 Código com a função de verificar se o que foi digitado tem apenas 8 digitos
 
 ## Const preencherFormulario
-[foto](img/preencheCampos.png)
+![foto](img/preencheCampos.png)
 Tem a função de preencher campos relacionados ao CEP
 
 
 ## Const limpar formulário
-[foto](img/limparF.png)
+![foto](img/limparF.png)
 * "assync" é uma função que irá ser usada de forma combinada com o "await", que significa que ela irá suspender o método de chamada, e transferir o controle ao seu chamador, até que a tarefa esteja completa.
 
 * Const URL: Foi utilizado uma  "const" para que se use o site "ViaCep" para que ele faça parte do processo de pegar um CEP e localizar. No site é mostrado um exemplo, porém foi alterado no projeto o local aonde o CEP de exemplo é posto para um "cep.value", aonde a pessoa que utilizar o site conseguirá digitar um CEP que a própria queira, e fazer com que ela funcione de acordo com o CEP digitado.
