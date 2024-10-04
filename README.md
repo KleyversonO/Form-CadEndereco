@@ -22,8 +22,8 @@ Código com a função de verificar se o que foi digitado tem apenas 8 digitos
 Tem a função de preencher campos relacionados ao CEP
 
 
-## Const limpar formulário
-![foto](img/limparF.png)
+## Consumo API
+![foto](img/consumo.png)
 * "assync" é uma função que irá ser usada de forma combinada com o "await", que significa que ela irá suspender o método de chamada, e transferir o controle ao seu chamador, até que a tarefa esteja completa.
 
 * Const URL: Foi utilizado uma  "const" para que se use o site "ViaCep" para que ele faça parte do processo de pegar um CEP e localizar. No site é mostrado um exemplo, porém foi alterado no projeto o local aonde o CEP de exemplo é posto para um "cep.value", aonde a pessoa que utilizar o site conseguirá digitar um CEP que a própria queira, e fazer com que ela funcione de acordo com o CEP digitado.
