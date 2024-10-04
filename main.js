@@ -24,7 +24,7 @@ const eNumero = (numero) => /^[0-9]+$/.test(numero); //Expressão
 const cepValido = (cep) => cep.length == 8 && eNumero(cep);
 
 // Função para consumo de API ViaCep
-const pesquisarCep =async() => {   //async é uma função para sincronização (Pesquisar dps)
+const pesquisarCep =async() => {   //async é uma função para sincronização 
 
     //pesquisar daqui
     limparformulario();
@@ -33,7 +33,7 @@ const pesquisarCep =async() => {   //async é uma função para sincronização 
         const dados = await fetch(url); //até aqui 
         const addres = await dados.json();
         
-        if(addres.hasOwnProperty('erro')){ //hasOwnProperty (Pesquisar dps)
+        if(addres.hasOwnProperty('erro')){ //hasOwnProperty
             alert('CEP não encontrado'); 
 
         }else{
@@ -45,4 +45,4 @@ const pesquisarCep =async() => {   //async é uma função para sincronização 
 }
 
 // Executa a ação de preenchimento do formulário ao deixar o campo do CEP
-document.getElementById('cep').addEventListener('focusout', pesquisarCep); //addEventListener (pesquisar dps)
+document.getElementById('cep').addEventListener('focusout', pesquisarCep); //addEventListener
